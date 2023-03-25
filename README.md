@@ -20,3 +20,4 @@ En la tercera tarea se asigna la creación de la sección artista
 Informe de modificaciones:
 
 El desarollador uno realizó la tarea de creación de html, generó las etiquetas y asignó las imágenes 
+El desarollador dos realizó las tareas de creación de secciones varias y el index
