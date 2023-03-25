@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #barra{
+            background-color: #969696;
+        }
+
+        label { text-align: center;
+        }
+
+        h2 {
+          text-align: center;
+        }
+        
+        div {
+          text-align: left;
+        }
+
+        form
+        { padding: 20px;
+
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <nav id="barra" class="navbar navbar-expand-sm navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+            <img src="assets/imagenes/Mi proyecto.png" alt="logo" style="width:40px;">
+        </a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="index copy 2.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="tatuajes.html">Tatuajes</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="piercings.html">Piercings</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="artistas.html">Artistas</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Cotización</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Como llegar</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+          </li>
+              </div>
+          </li>
+      </ul>
+    </nav>
+
+
+
+      <div class="container-fluid">
+        <br><h2>AGENDAR CITAS </h2> <br>
+        <form action="/action_page.php" style="border: solid 1px black ;">
+          <div class="form-group">
+            <label for="name" >Nombres:</label>
+            <input type="text" class="form-control" id="name" placeholder="Nombres" name="isbnCodigo">
+          </div>
+          <div class="form-group">
+            <label for="ape">Apellidos:</label>
+            <input type="text" class="form-control" id="ape" placeholder="Apellidos" name="autorNombre">
+          </div>
+          <div class="form-group">
+            <label for="titulo">Estilo de tatuaje:</label>
+            <input type="text" class="form-control" id="titulo" placeholder="Ingresar el título" name="tituloLibro">
+          </div>
+          <div class="form-group">
+            <label for="editorial">Tatuador de preferencia:</label>
+            <input type="text" class="form-control" id="editorial" placeholder="Ingresar tatuador de preferencia" name="editorialLibro">
+          </div>
+          
+          <p>
+            <label for="date">
+              <span>Fecha de nacimiento:</span>
+              <strong><abbr title="required">*</abbr></strong>
+              <em></em>
+            </label>
+            <input type="date" id="date" name="expiration">
+          </p>
+              
+                <div class="form-group">
+                  <label for="exampleFormControlFile1">Adjuntar permiso (Para menores de edad) </label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1"> <br>
+                  <div class="form-group form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Recuerda mis datos
+                      <form>
+                </div>
+              </form>
+            </label>
+          </div>
+    
+          <br>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+
+
+
+
+</body>
+</html>
