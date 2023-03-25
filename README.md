@@ -21,3 +21,4 @@ Informe de modificaciones:
 
 El desarollador uno realizó la tarea de creación de html, generó las etiquetas y asignó las imágenes 
 El desarollador dos realizó las tareas de creación de secciones varias y el index
+El desarollador tres realizó las tareas de creación de secciones varias y formularios en registrar
